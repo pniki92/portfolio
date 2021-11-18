@@ -1,0 +1,35 @@
+body {
+    background-color: indigo;
+}
+.maincontent {
+    width: 80%;
+    max-width: 1400px;
+    margin: 50px 10%;
+    background-color: white;
+}
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: black;
+   color: white;
+   padding: 20px;
+   
+}
+header h1 {
+    text-transform: uppercase;
+}
+.menu a{
+    color: lightslategray;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+    transition: 0.5s all;
+    margin-right: 20px;
+}
+.menu a:last-of-type {
+    margin-right: 0;
+}
+.menu a:hover{
+    color: dimgray;
+}
